@@ -19,5 +19,8 @@ require('ngstarter-bootswatch-tasks');
 gulp set-theme --name=darkly
 ```
 
+## Credits
+[Bootswatch](https://bootswatch.com/) for providing nice themes!
+
 ## License
 MIT
