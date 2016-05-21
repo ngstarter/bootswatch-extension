@@ -1,0 +1,29 @@
+{
+  "name": "ngstarter-bootswatch-tasks",
+  "version": "1.0.0-rc.2",
+  "description": "Extends Angular 2 Starter with Bootswatch tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngstarter/ngstarter-bootswatch-tasks.git"
+  },
+  "keywords": [
+    "angular2",
+    "angular2starter",
+    "bootswatch"
+  ],
+  "author": "Antony Budianto <antonybudianto@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngstarter/ngstarter-bootswatch-tasks/issues"
+  },
+  "homepage": "https://github.com/ngstarter/ngstarter-bootswatch-tasks#readme",
+  "peerDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-replace": "^0.5.4",
+    "yargs": "^4.7.1"
+  }
+}
