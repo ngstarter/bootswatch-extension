@@ -1,6 +1,6 @@
 {
   "name": "ngstarter-bootswatch-tasks",
-  "version": "1.0.0-rc.3",
+  "version": "1.0.0-rc.7",
   "description": "Extends Angular 2 Starter with Bootswatch tasks",
   "main": "index.js",
   "scripts": {
@@ -21,9 +21,12 @@
     "url": "https://github.com/ngstarter/ngstarter-bootswatch-tasks/issues"
   },
   "homepage": "https://github.com/ngstarter/ngstarter-bootswatch-tasks#readme",
+  "dependencies": {
+    "gulp-replace": "^0.5.4"
+  },
   "peerDependencies": {
+    "bootswatch": "^3.3.6",
     "gulp": "^3.9.1",
-    "gulp-replace": "^0.5.4",
     "yargs": "^4.7.1"
   }
 }

@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var fs = require('fs');
 var argv = require('yargs').argv;
-var config = require('../gulp.config')();
+var config = require('../../gulp.config')();
 var replace = require('gulp-replace');
 
 gulp.task('set-theme', function () {
@@ -13,7 +13,7 @@ gulp.task('set-theme', function () {
       try {
         if (fs.statSync(p + theme).isDirectory()) {
           if (fs.statSync(p + theme + '/_bootswatch.scss')){
-            return gulp.src(config.assetsPath.styles + 'bootswatch.scss')
+            return gulp.src(config.assetsPath.styles + 'bootstrap.scss')
                 .pipe(replace(/bootswatch\/[^\/]+\//g, 'bootswatch/'+ theme + '/'))
                 .pipe(gulp.dest(config.assetsPath.styles));
           }
