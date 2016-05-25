@@ -16,10 +16,10 @@ Extends Angular 2 Starter with Bootswatch specific tasks
 
 3. Change your starter `bootstrap.scss` to something like
   ```scss
-  @import '../../node_modules/bootswatch/paper/variables';
+  @import '../../../node_modules/bootswatch/paper/variables';
   @import 'bootstrap.variables';
-  @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
-  @import '../../node_modules/bootswatch/paper/bootswatch';
+  @import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+  @import '../../../node_modules/bootswatch/paper/bootswatch';
   ```
 
 4. Try it out, it's ready!

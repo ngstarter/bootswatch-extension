@@ -1,6 +1,6 @@
 {
   "name": "ngstarter-bootswatch-tasks",
-  "version": "1.0.0-rc.7",
+  "version": "1.0.0-rc.8",
   "description": "Extends Angular 2 Starter with Bootswatch tasks",
   "main": "index.js",
   "scripts": {
