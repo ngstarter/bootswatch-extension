@@ -1,17 +1,17 @@
-# ngstarter-bootswatch-tasks
+# bootswatch-extension
 Extends Angular 2 Starter with Bootswatch specific tasks
 
-[![npm version](https://badge.fury.io/js/ngstarter-bootswatch-tasks.svg)](https://badge.fury.io/js/ngstarter-bootswatch-tasks)
+[![npm version](https://badge.fury.io/js/%40ngstarter%2Fbootswatch-extension.svg)](https://badge.fury.io/js/%40ngstarter%2Fbootswatch-extension)
 
 ## Getting started
 1. Install Bootswatch and the starter extension
   ```bash
-  npm install bootswatch ngstarter-bootswatch-tasks --save-dev
+  npm install bootswatch @ngstarter/bootswatch-extension --save-dev
   ```
 
 2. Then require it somewhere in your [Angular 2 Starter](https://github.com/antonybudianto/angular2-starter) tasks
   ```js
-  require('ngstarter-bootswatch-tasks');
+  require('@ngstarter/bootswatch-extension');
   ```
 
 3. Change your starter `bootstrap.scss` to something like

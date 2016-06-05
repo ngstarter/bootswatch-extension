@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var fs = require('fs');
 var argv = require('yargs').argv;
-var config = require('../../gulp.config')();
+var config = require('../../../gulp.config')();
 var replace = require('gulp-replace');
 
 gulp.task('set-theme', function () {
