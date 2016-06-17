@@ -6,12 +6,16 @@ Extends Angular 2 Starter with Bootswatch specific tasks
 ## Getting started
 1. Install Bootswatch and the starter extension
   ```bash
-  npm install bootswatch @ngstarter/bootswatch-extension --save-dev
+  npm install bootswatch @ngstarter/bootswatch-extension --save
   ```
 
 2. Then require it somewhere in your [Angular 2 Starter](https://github.com/antonybudianto/angular2-starter) tasks
   ```js
-  require('@ngstarter/bootswatch-extension');
+  // Load gulp config
+  var config = require('../config')();
+
+  // Load extension with config
+  require('@ngstarter/bootswatch-extension')(config);
   ```
 
 3. Change your starter `bootstrap.scss` to something like
